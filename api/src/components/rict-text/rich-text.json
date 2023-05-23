@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_rict_text_rich_texts",
+  "info": {
+    "displayName": "RichText"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

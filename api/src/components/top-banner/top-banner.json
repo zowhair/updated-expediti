@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_top_banner_top_banners",
+  "info": {
+    "displayName": "topBanner"
+  },
+  "options": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "rightText1": {
+      "type": "string"
+    },
+    "rightText2": {
+      "type": "string"
+    }
+  }
+}

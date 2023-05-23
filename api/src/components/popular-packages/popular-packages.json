@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_popular_packages_popular_packages",
+  "info": {
+    "displayName": "popularPackages"
+  },
+  "options": {},
+  "attributes": {
+    "bagde": {
+      "type": "string"
+    },
+    "background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

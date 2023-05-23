@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_price_prices",
+  "info": {
+    "displayName": "price"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}

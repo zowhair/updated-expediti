@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_header_headers",
+  "info": {
+    "displayName": "Layout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "top-banner.top-banner"
+    },
+    "nav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav.navbar"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer"
+    }
+  }
+}

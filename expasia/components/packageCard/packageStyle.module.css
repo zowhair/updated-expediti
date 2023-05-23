@@ -1,0 +1,9 @@
+
+.cards-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.main-card {
+    margin: 10px;
+
+}
