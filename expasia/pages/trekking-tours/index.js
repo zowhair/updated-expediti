@@ -10,7 +10,7 @@ export default function TrekkingTours({trekkingToursData}) {
 }
 
 export async function getServerSideProps() {
-    const trekkingTours = await fetch('http://localhost:1337/api/trekking-tour?populate=deep')
+    const trekkingTours = await fetch('http://localhost:1337/api/trek-collection?populate=deep')
     const trekkingToursData = await trekkingTours.json()
     const layout = await fetch('http://localhost:1337/api/layout?populate=deep')
     const layoutData = await layout.json()

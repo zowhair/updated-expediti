@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_collection_page_collection_pages",
+  "info": {
+    "displayName": "collectionPage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner"
+    },
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "rict-text.rich-text"
+    },
+    "packageList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "popular-packages.popular-packages"
+    }
+  }
+}

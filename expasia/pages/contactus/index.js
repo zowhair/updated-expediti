@@ -6,4 +6,4 @@ export default function ContactUs() {
             <h1>This is Contact Us pagge</h1>
         </>
     )
-} 
+}

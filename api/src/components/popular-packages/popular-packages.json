@@ -1,7 +1,8 @@
 {
   "collectionName": "components_popular_packages_popular_packages",
   "info": {
-    "displayName": "popularPackages"
+    "displayName": "popularPackages",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,16 +10,20 @@
       "type": "string"
     },
     "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "title": {
       "type": "string"
     },
     "description": {
+      "type": "string"
+    },
+    "link": {
       "type": "string"
     }
   }
